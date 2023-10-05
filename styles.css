@@ -1,0 +1,31 @@
+/* Responsive? */
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{
+    scale: 1.15;
+    cursor:grab;
+}
+
+@media (max-width: 1000px) {
+    .box-all{
+        display: grid;
+    }
+
+    .stockbar{
+        margin-bottom: 15px;
+    }
+
+    .btn-r{
+        display: flex;
+    }
+
+    input{
+        height: 35px;
+        margin-right: 2.5px;
+    }
+}
